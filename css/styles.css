@@ -94,11 +94,38 @@ aside > h2 {
 	padding: 10px;
 	margin: 30px 0 0 0;
 }
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+   .centerimg  {
+    float: center; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+H3 { 
+    font-family: Arial;
+    
+color:#000000;
+
+	text-indent: 0%;
+    font-size: 200%; 
+    font-weight: lighter; /* Светлое начертание */ 
+   }
+   H1 { 
+    font-family: Arial;
+    font-size: 300%;  
+    font-weight: bolder;
+   }
 
 aside > p {
 	background: #f3f3f3;
 	border: 1px solid #e7e7e7;
-	padding: 10px;
+	padding: 60px;
 	margin: 0;
 }
 footer {
@@ -111,7 +138,7 @@ footer {
 	max-width: 960px;
 	margin: auto;
 	padding: 10px 0;
-	height: 90px;
+	height: 100px;
 }
 footer a {
 	color: #dbdbdb;
@@ -121,7 +148,7 @@ footer a {
 	width: 150px;
 	float: right;
 	margin-left: 20px;
-	padding-right: 40px;
+	padding-right: 10px;
 }
 
 #sitemap div {
