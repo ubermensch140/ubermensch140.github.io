@@ -44,7 +44,7 @@ nav ul {
 
 nav li {
 	list-style-position: inside;
-	font: 20px 'Oswald', sans-serif;
+	font: 14px 'Oswald', sans-serif;
 	padding: 10px;
 }
 
@@ -55,12 +55,12 @@ nav li {
 }
 
 .top-menu li.active {
-	background: #4B0082;
+	background: #29c5e6;
 	color: #fff;
 }
 
 .top-menu a {
-	color: #F8F8FF;
+	color: #b2b2b2;
 }
 aside {
 	float: left;
@@ -73,7 +73,7 @@ section {
 .aside-menu li {
 	font-weight: 300;
 	list-style-type: square;
-	border-top: 1px solid #F8F8FF;
+	border-top: 1px solid #e7e7e7;
 }
 
 .aside-menu li:first-child {
@@ -81,15 +81,15 @@ section {
 }
 
 .aside-menu li.active {
-	color: #4B0082;
+	color: #29c5e6;
 }
 
 .aside-menu a {
-	color: #4B0082;
+	color: #8f8f8f;
 }
 aside > h2 {
 	background: #29c5e6;
-	font: 18px 'Oswald', sans-serif;
+	font: 14px 'Oswald', sans-serif;
 	color: #fff;
 	padding: 10px;
 	margin: 30px 0 0 0;
@@ -123,13 +123,13 @@ color:#000000;
    }
 
 aside > p {
-	background: #4B0082;
-	border: 1px solid #4B0082;
-	padding: 600px;
+	background: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	padding: 60px;
 	margin: 0;
 }
 footer {
-	background:#4B0082 ;
+	background: #7e7e7e;
 	color: #dbdbdb;
 	font-size: 11px;
 }
