@@ -31,7 +31,9 @@ header {
 	padding: 20px 0;
 }
 form[name="search"] {
-	float: right;
+	
+	margin-top: 40px;
+	margin-left: 1174px;
 }
 nav a {
 	text-decoration: none;
@@ -50,13 +52,16 @@ nav li {
 
 .top-menu li {
 	display: inline-block;
-	padding: 10px 30px;
-	margin: 0;
+	padding: 10px 60px;
+	margin-top: 40px;
+	padding-left: 80px;
+
 }
 
 .top-menu li.active {
 	background: #4B0082;
 	color: #fff;
+	border-radius: 5px;
 }
 
 .top-menu a {
@@ -72,8 +77,9 @@ section {
 }
 .aside-menu li {
 	font-weight: 300;
-	list-style-type: square;
-	border-top: 1px solid #F8F8FF;
+	
+	
+	
 }
 
 .aside-menu li:first-child {
@@ -172,7 +178,8 @@ footer a {
 #slider { /*положение слайдера*/
     position: relative;
 	text-align: center;
-    top: 10px;
+   
+	margin-top: -50px;
 
 }
 
